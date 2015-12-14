@@ -3,10 +3,12 @@
 * Donate link: http://www.oik-plugins.com/oik/oik-donate/
 * Tags: shortcodes, smart, lazy, [bw_more]
 * Requires at least: 3.9
-* Tested up to: 4.0
-* Stable tag: 0.1
+* Tested up to: 4.4
+* Stable tag: 0.2.1
 * License: GPLv2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Progressively reveal content by clicking on "read more" buttons.
 
 ## Description 
 Implements the [bw_more] shortcode to progressively reveal content by clicking on "read more" buttons.
@@ -18,7 +20,6 @@ Implements the [bw_more] shortcode to progressively reveal content by clicking o
 Choose the text to be displayed in the button using
 
 [bw_more "my read more text"]
-
 
 
 
@@ -50,12 +51,20 @@ Use custom CSS to style the 'read more' text.
 2. result after 'read more' clicked
 
 ## Upgrade Notice 
+# 0.2.1 
+Tested with WordPress 4.4 and WordPress Multisite. Now depends on oik v2.5 or higher
+
 # 0.2 
 Tested up to WordPress 4.0
+
 # 0.1 
 Tested up to WordPress 3.9
 
 ## Changelog 
+# 0.2.1 
+* Changed: Depends on oik v2.5 or higher
+* Tested: With WordPress 4.4 and WordPress MultiSite
+
 # 0.2 
 * Changed: Does not need to set the plugin server for a plugin hosted on WordPress.org
 * Tested: With WordPress 4.0
