@@ -3,7 +3,7 @@
 Plugin Name: oik-read-more
 Plugin URI: http://www.oik-plugins.com/oik-plugins/oik-read-progressively-reveal-content/
 Description: Implements [bw_more] shortcode to progressively reveal content
-Version: 0.2  
+Version: 0.2.1  
 Author: bobbingwide
 Author URI: http://www.oik-plugins.com/author/bobbingwide
 Text Domain: oik-read-more
@@ -11,7 +11,7 @@ Domain Path: /languages/
 License: GPL2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-    Copyright 2014 Bobbing Wide (email : herb@bobbingwide.com )
+    Copyright 2014,2015 Bobbing Wide (email : herb@bobbingwide.com )
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License version 2,
@@ -28,6 +28,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     http://www.gnu.org/licenses/gpl-2.0.html
 
 */
+oik_rm_plugin_loaded();
 
 /**
  * Implement "oik_add_shortcodes" action for oik-read-more
@@ -58,7 +59,7 @@ function oik_rm_activation() {
       require_once( "admin/oik-activation.php" );
     }
   }  
-  $depends = "oik:2.2";
+  $depends = "oik:2.5";
   oik_plugin_lazy_activation( __FILE__, $depends, "oik_plugin_plugin_inactive" );
 }
 
@@ -67,8 +68,7 @@ function oik_rm_activation() {
  */
 function oik_rm_plugin_loaded() {
   add_action( "admin_notices", "oik_rm_activation" );
-  add_action( "oik_admin_menu", "oik_rm_admin_menu" );
+  //add_action( "oik_admin_menu", "oik_rm_admin_menu" );
   add_action( "oik_add_shortcodes", "oik_rm_init" );
 }
 
-oik_rm_plugin_loaded();
