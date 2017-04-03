@@ -1,10 +1,11 @@
 # oik-read-more 
+![banner](https://raw.githubusercontent.com/bobbingwide/oik-read-more/master/assets/oik-read-more-banner-772x250.jpg)
 * Contributors: bobbingwide, vsgloik
-* Donate link: http://www.oik-plugins.com/oik/oik-donate/
-* Tags: shortcodes, smart, lazy, [bw_more]
+* Donate link: https://www.oik-plugins.com/oik/oik-donate/
+* Tags: shortcode, [bw_more], oik
 * Requires at least: 3.9
-* Tested up to: 4.4
-* Stable tag: 0.2.1
+* Tested up to: 4.7.3
+* Stable tag: 0.2.2
 * License: GPLv2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -23,11 +24,14 @@ Choose the text to be displayed in the button using
 
 
 
-## Installation 
+## Frequently Asked Questions 
+
+# Installation 
 1. Upload the contents of the oik-read-more plugin to the `/wp-content/plugins/oik-read-more' directory
 1. Activate the oik-read-more plugin through the 'Plugins' menu in WordPress
 
-## Frequently Asked Questions 
+* Note: You will also need the oik base plugin, version 3.1 or higher.
+
 # Is it dependent upon oik? 
 Yes. It depends on the oik base plugin.
 
@@ -44,6 +48,10 @@ Yes. It depends on the oik base plugin.
 
 Use custom CSS to style the 'read more' text.
 
+# Further reading 
+If you want to read more about the oik plugins then please visit the
+[oik plugin](https://www.oik-plugins.com/oik)
+**"the oik plugin - for often included key-information"**
 
 
 ## Screenshots 
@@ -51,6 +59,9 @@ Use custom CSS to style the 'read more' text.
 2. result after 'read more' clicked
 
 ## Upgrade Notice 
+# 0.2.2 
+Tested with WordPress 4.7.3 and WordPress Multisite. Tested with PHP 7.1. Now depends on oik v3.1 or higher.
+
 # 0.2.1 
 Tested with WordPress 4.4 and WordPress Multisite. Now depends on oik v2.5 or higher
 
@@ -61,6 +72,11 @@ Tested up to WordPress 4.0
 Tested up to WordPress 3.9
 
 ## Changelog 
+# 0.2.2 
+* Changed: Depends on oik v3.1 or higher
+* Tested: With WordPress 4.7.3 and WordPress Multisite
+* Tested: With PHP 7.1
+
 # 0.2.1 
 * Changed: Depends on oik v2.5 or higher
 * Tested: With WordPress 4.4 and WordPress MultiSite
@@ -72,9 +88,4 @@ Tested up to WordPress 3.9
 
 # 0.1 
 * Added: New plugin implementing the [bw_more] shortcode
-
-## Further reading 
-If you want to read more about the oik plugins then please visit the
-[oik plugin](http://www.oik-plugins.com/oik)
-**"the oik plugin - for often included key-information"**
 
