@@ -4,8 +4,8 @@
 * Donate link: https://www.oik-plugins.com/oik/oik-donate/
 * Tags: shortcode, [bw_more], oik
 * Requires at least: 3.9
-* Tested up to: 4.7.3
-* Stable tag: 0.2.2
+* Tested up to: 5.3.1
+* Stable tag: 0.2.3
 * License: GPLv2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -59,6 +59,9 @@ If you want to read more about the oik plugins then please visit the
 2. result after 'read more' clicked
 
 ## Upgrade Notice 
+# 0.2.3 
+Tested with WordPress 5.3.1 and WordPress Multi Site.
+
 # 0.2.2 
 Tested with WordPress 4.7.3 and WordPress Multisite. Tested with PHP 7.1. Now depends on oik v3.1 or higher.
 
@@ -72,6 +75,11 @@ Tested up to WordPress 4.0
 Tested up to WordPress 3.9
 
 ## Changelog 
+# 0.2.3 
+* Changed: Removed some commented out/redundant code
+* Tested: With WordPress 5.3.1 and WordPress Multi Site
+* Tested: With PHP 7.3 and PHP 7.4
+
 # 0.2.2 
 * Changed: Depends on oik v3.1 or higher
 * Tested: With WordPress 4.7.3 and WordPress Multisite

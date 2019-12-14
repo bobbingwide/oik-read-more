@@ -3,15 +3,15 @@
 Plugin Name: oik-read-more
 Plugin URI: https://www.oik-plugins.com/oik-plugins/oik-read-progressively-reveal-content/
 Description: Implements [bw_more] shortcode to progressively reveal content
-Version: 0.2.2  
+Version: 0.2.3  
 Author: bobbingwide
-Author URI: https://www.oik-plugins.com/author/bobbingwide
+Author URI: https://bobbingwide.com/about-bobbing-wide
 Text Domain: oik-read-more
 Domain Path: /languages/
 License: GPL2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-    Copyright 2014-2017 Bobbing Wide (email : herb@bobbingwide.com )
+    Copyright 2014-2019 Bobbing Wide (email : herb@bobbingwide.com )
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License version 2,
@@ -34,17 +34,7 @@ oik_rm_plugin_loaded();
  * Implement "oik_add_shortcodes" action for oik-read-more
  */
 function oik_rm_init() {
-  // bw_add_shortcode( "bw_rm", "oik_rm", oik_path( "shortcodes/oik-read-more.php", "oik-read-more" ), false );
   bw_add_shortcode( "bw_more", "oik_rm", oik_path( "shortcodes/oik-read-more.php", "oik-read-more" ), false );
-}
-
-/**
- * Implement "oik_admin_menu" for oik-read-more 
- * 
- * Set the plugin server. Not necessary for a plugin on WordPress.org
- */
-function oik_rm_admin_menu() {
-  // oik_register_plugin_server( __FILE__ );
 }
 
 /**
@@ -68,7 +58,5 @@ function oik_rm_activation() {
  */
 function oik_rm_plugin_loaded() {
   add_action( "admin_notices", "oik_rm_activation" );
-  //add_action( "oik_admin_menu", "oik_rm_admin_menu" );
   add_action( "oik_add_shortcodes", "oik_rm_init" );
 }
-
