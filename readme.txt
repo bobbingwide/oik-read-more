@@ -3,8 +3,8 @@ Contributors: bobbingwide, vsgloik
 Donate link: https://www.oik-plugins.com/oik/oik-donate/
 Tags: shortcode, [bw_more], oik
 Requires at least: 3.9
-Tested up to: 5.7
-Stable tag: 0.2.3
+Tested up to: 6.0.1
+Stable tag: 0.2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -58,6 +58,9 @@ If you want to read more about the oik plugins then please visit the
 2. result after 'read more' clicked
 
 == Upgrade Notice ==
+= 0.2.4 = 
+Tested with WordPress 6.0.1 and WordPress Multi Site.
+
 = 0.2.3 = 
 Tested with WordPress 5.3.1 and WordPress Multi Site.
 
@@ -74,6 +77,11 @@ Tested up to WordPress 4.0
 Tested up to WordPress 3.9 
 
 == Changelog ==
+= 0.2.4 =
+* Changed: Correct a comment
+* Tested: With WordPress 6.0.1 and WordPress Multi Site
+* Tested: With PHP 8.0
+
 = 0.2.3 =
 * Changed: Removed some commented out/redundant code
 * Tested: With WordPress 5.3.1 and WordPress Multi Site
@@ -95,4 +103,3 @@ Tested up to WordPress 3.9
  
 = 0.1 =
 * Added: New plugin implementing the [bw_more] shortcode
-
