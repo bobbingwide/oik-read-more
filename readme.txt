@@ -3,7 +3,7 @@ Contributors: bobbingwide, vsgloik
 Donate link: https://www.oik-plugins.com/oik/oik-donate/
 Tags: shortcode, [bw_more], oik
 Requires at least: 3.9
-Tested up to: 6.1.1
+Tested up to: 6.3
 Stable tag: 0.2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
