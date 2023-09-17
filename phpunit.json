@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="3" assertions="9" errors="0" warnings="0" failures="0" skipped="0" time="0.085303">
+    <testsuite name="oik-read-more" tests="3" assertions="9" errors="0" warnings="0" failures="0" skipped="0" time="0.085303">
+      <testsuite name="Tests_read_more" file="C:\apache\htdocs\wordpress\wp-content\plugins\oik-read-more\tests\test-read-more.php" tests="3" assertions="9" errors="0" warnings="0" failures="0" skipped="0" time="0.085303">
+        <testcase name="test_read_more_files_PHP82" class="Tests_read_more" classname="Tests_read_more" file="C:\apache\htdocs\wordpress\wp-content\plugins\oik-read-more\tests\test-read-more.php" line="28" assertions="1" time="0.064261"/>
+        <testcase name="test_bw_more_shortcode" class="Tests_read_more" classname="Tests_read_more" file="C:\apache\htdocs\wordpress\wp-content\plugins\oik-read-more\tests\test-read-more.php" line="38" assertions="4" time="0.015391"/>
+        <testcase name="test_oik_rm_end" class="Tests_read_more" classname="Tests_read_more" file="C:\apache\htdocs\wordpress\wp-content\plugins\oik-read-more\tests\test-read-more.php" line="45" assertions="4" time="0.005652"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
