@@ -37,6 +37,10 @@ function oik_rm_init() {
   bw_add_shortcode( "bw_more", "oik_rm", oik_path( "shortcodes/oik-read-more.php", "oik-read-more" ), false );
 }
 
+function oik_rm_oik_loaded() {
+	add_action( "oik_add_shortcodes", "oik_rm_init" );
+}
+
 /**
  * Implement "admin_notices" for oik-read-more to check plugin dependency
  */ 
@@ -58,5 +62,5 @@ function oik_rm_activation() {
  */
 function oik_rm_plugin_loaded() {
   add_action( "admin_notices", "oik_rm_activation" );
-  add_action( "oik_add_shortcodes", "oik_rm_init" );
+  add_action( "oik_loaded", "oik_rm_oik_loaded" );
 }
