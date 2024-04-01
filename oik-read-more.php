@@ -3,7 +3,7 @@
 Plugin Name: oik-read-more
 Plugin URI: https://www.oik-plugins.com/oik-plugins/oik-read-progressively-reveal-content/
 Description: Implements [bw_more] shortcode to progressively reveal content
-Version: 0.2.5
+Version: 0.2.6
 Author: bobbingwide
 Author URI: https://bobbingwide.com/about-bobbing-wide
 Text Domain: oik-read-more
@@ -11,7 +11,7 @@ Domain Path: /languages/
 License: GPL2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-    Copyright 2014-2023 Bobbing Wide (email : herb@bobbingwide.com )
+    Copyright 2014-2024 Bobbing Wide (email : herb@bobbingwide.com )
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License version 2,

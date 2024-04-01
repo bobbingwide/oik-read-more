@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="" tests="6" assertions="12" errors="0" warnings="0" failures="0" skipped="0" time="0.111678">
-    <testsuite name="oik-read-more" tests="6" assertions="12" errors="0" warnings="0" failures="0" skipped="0" time="0.111678">
-      <testsuite name="Tests_load_php" file="C:\apache\htdocs\wordpress\wp-content\plugins\oik-read-more\tests\test-a-load-php.php" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.066151">
-        <testcase name="test_load_admin_php" class="Tests_load_php" classname="Tests_load_php" file="C:\apache\htdocs\wordpress\wp-content\plugins\oik-read-more\tests\test-a-load-php.php" line="22" assertions="1" time="0.045619"/>
-        <testcase name="test_load_shortcodes_php" class="Tests_load_php" classname="Tests_load_php" file="C:\apache\htdocs\wordpress\wp-content\plugins\oik-read-more\tests\test-a-load-php.php" line="27" assertions="1" time="0.006735"/>
-        <testcase name="test_load_plugin_php" class="Tests_load_php" classname="Tests_load_php" file="C:\apache\htdocs\wordpress\wp-content\plugins\oik-read-more\tests\test-a-load-php.php" line="33" assertions="1" time="0.013797"/>
+  <testsuite name="" tests="6" assertions="12" errors="0" warnings="0" failures="0" skipped="0" time="0.144016">
+    <testsuite name="oik-read-more" tests="6" assertions="12" errors="0" warnings="0" failures="0" skipped="0" time="0.144016">
+      <testsuite name="Tests_load_php" file="C:\apache\htdocs\wordpress\wp-content\plugins\oik-read-more\tests\test-a-load-php.php" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.094019">
+        <testcase name="test_load_admin_php" class="Tests_load_php" classname="Tests_load_php" file="C:\apache\htdocs\wordpress\wp-content\plugins\oik-read-more\tests\test-a-load-php.php" line="22" assertions="1" time="0.066676"/>
+        <testcase name="test_load_shortcodes_php" class="Tests_load_php" classname="Tests_load_php" file="C:\apache\htdocs\wordpress\wp-content\plugins\oik-read-more\tests\test-a-load-php.php" line="27" assertions="1" time="0.013111"/>
+        <testcase name="test_load_plugin_php" class="Tests_load_php" classname="Tests_load_php" file="C:\apache\htdocs\wordpress\wp-content\plugins\oik-read-more\tests\test-a-load-php.php" line="33" assertions="1" time="0.014232"/>
       </testsuite>
-      <testsuite name="Tests_read_more" file="C:\apache\htdocs\wordpress\wp-content\plugins\oik-read-more\tests\test-read-more.php" tests="3" assertions="9" errors="0" warnings="0" failures="0" skipped="0" time="0.045527">
-        <testcase name="test_read_more_files_PHP82" class="Tests_read_more" classname="Tests_read_more" file="C:\apache\htdocs\wordpress\wp-content\plugins\oik-read-more\tests\test-read-more.php" line="28" assertions="1" time="0.013391"/>
-        <testcase name="test_bw_more_shortcode" class="Tests_read_more" classname="Tests_read_more" file="C:\apache\htdocs\wordpress\wp-content\plugins\oik-read-more\tests\test-read-more.php" line="38" assertions="4" time="0.015597"/>
-        <testcase name="test_oik_rm_end" class="Tests_read_more" classname="Tests_read_more" file="C:\apache\htdocs\wordpress\wp-content\plugins\oik-read-more\tests\test-read-more.php" line="45" assertions="4" time="0.016539"/>
+      <testsuite name="Tests_read_more" file="C:\apache\htdocs\wordpress\wp-content\plugins\oik-read-more\tests\test-read-more.php" tests="3" assertions="9" errors="0" warnings="0" failures="0" skipped="0" time="0.049997">
+        <testcase name="test_read_more_files_PHP82" class="Tests_read_more" classname="Tests_read_more" file="C:\apache\htdocs\wordpress\wp-content\plugins\oik-read-more\tests\test-read-more.php" line="28" assertions="1" time="0.011421"/>
+        <testcase name="test_bw_more_shortcode" class="Tests_read_more" classname="Tests_read_more" file="C:\apache\htdocs\wordpress\wp-content\plugins\oik-read-more\tests\test-read-more.php" line="38" assertions="4" time="0.017014"/>
+        <testcase name="test_oik_rm_end" class="Tests_read_more" classname="Tests_read_more" file="C:\apache\htdocs\wordpress\wp-content\plugins\oik-read-more\tests\test-read-more.php" line="45" assertions="4" time="0.021562"/>
       </testsuite>
     </testsuite>
   </testsuite>
