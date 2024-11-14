@@ -3,7 +3,7 @@ Contributors: bobbingwide, vsgloik
 Donate link: https://www.oik-plugins.com/oik/oik-donate/
 Tags: shortcode, [bw_more], oik
 Requires at least: 3.9
-Tested up to: 6.6.2
+Tested up to: 6.7
 Stable tag: 0.2.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -20,8 +20,6 @@ Implements the [bw_more] shortcode to progressively reveal content by clicking o
 Choose the text to be displayed in the button using
 
 [bw_more "my read more text"]
-
-
 
 == Frequently Asked Questions ==
 
@@ -60,7 +58,6 @@ If you want to read more about the oik plugins then please visit the
 == Upgrade Notice ==
 = 0.2.6 =
 Upgrade for support for PHP 8.3.
-
 
 == Changelog ==
 = 0.2.6 =
